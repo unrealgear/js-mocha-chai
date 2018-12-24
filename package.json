@@ -1,0 +1,23 @@
+{
+  "name": "js-mocha-chai-example",
+  "productName": "Mocha and Chai usage example",
+  "version": "1.0.0",
+  "description": "Example of using Mocha and Chai",
+  "scripts": {
+    "test": "mocha && standard"
+  },
+  "repository": "https://github.com/unrealgear/js-mocha-chai",
+  "keywords": [
+    "mocha",
+    "chai",
+    "shared behaviour",
+    "testng",
+    "assertion"
+  ],
+  "dependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^6.0.0",
+    "chai-things": "^0.2.0",
+    "mocha": "^5.2.0"
+  }
+}
