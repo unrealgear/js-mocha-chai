@@ -4,7 +4,10 @@
   "version": "1.0.0",
   "description": "Example of using Mocha and Chai",
   "scripts": {
-    "test": "mocha && standard"
+    "test:architecture": "mocha source/architecture/tests.js",
+    "test:basic": "mocha source/basic/tests.js",
+    "test:beforeAndAfter": "mocha source/beforeAndAfter/tests.js",
+    "test:mochaPlugins": "mocha source/mochaPlugins/*/*.js"
   },
   "repository": "https://github.com/unrealgear/js-mocha-chai",
   "keywords": [
@@ -12,7 +15,12 @@
     "chai",
     "shared behaviour",
     "testng",
-    "assertion"
+    "assertion",
+    "plugins",
+    "before",
+    "after",
+    "configuration",
+    "architecture"
   ],
   "dependencies": {
     "chai": "^3.4.1",
