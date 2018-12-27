@@ -22,7 +22,7 @@
     "configuration",
     "architecture"
   ],
-  "dependencies": {
+  "devDependencies": {
     "chai": "^3.4.1",
     "chai-as-promised": "^6.0.0",
     "chai-things": "^0.2.0",
